@@ -173,11 +173,7 @@ local ScreenGui = Instance.new("ScreenGui")
                  end) 
 
  local OrionLib =   loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/XiaoLing_-_-R_-_-O_-_-B_-_-L_-_-O_-_-X_-UI_-X/main/XiaoLing.UI-Kong-AA.Lua"))() 
- local Window = OrionLib:MakeWindow({IntroText = "版本:正式版",
- Name = "冬凌中心[FORMAL]", 
- HidePremium = false,
- SaveConfig = true,
- ConfigFolder = "冬凌中心缓存区"}) 
+ local Window = OrionLib:MakeWindow({IntroText = "版本:正式版",Name = "冬凌中心[FORMAL]", HidePremium = false,aveConfig = true,ConfigFolder = "冬凌中心缓存区"}) 
   
  local about = Window:MakeTab({ 
      Name = "₪信息", 
@@ -188,7 +184,7 @@ local ScreenGui = Instance.new("ScreenGui")
  about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
  about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")  
  about:AddParagraph("您的注入器:"," "..identifyexecutor().."") 
- about:AddParagraph("您的"..identifyexecutor().."注入等级是：",""..printidentity().."级,小凌已经畏惧了") 
+ about:AddParagraph("您的注入器等级是：",""..printidentity().."级,小凌已经畏惧了") 
  about:AddParagraph("如何获取香肠派对","玩香肠派对加我") 
  about:AddParagraph("作者：小凌，琳琳","") 
  local Tab= Window:MakeTab({ 
