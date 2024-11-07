@@ -1467,20 +1467,6 @@ local ScreenGui = Instance.new("ScreenGui")
            end 
  }) 
  
- Tab:AddButton({ 
-         Name = "月亮ui画面", 
-         Callback = function() 
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/Mightix/main/loader.lua",true))() 
-           end 
- }) 
-  
- Tab:AddButton({ 
-         Name = "红色界面", 
-         Callback = function() 
-      loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))() 
-           end 
- }) 
-
  local Tab = Window:MakeTab({ 
          Name = "₪FE脚本", 
          Icon = "rbxassetid://4483345998", 
