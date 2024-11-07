@@ -172,9 +172,12 @@ local ScreenGui = Instance.new("ScreenGui")
                     vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame) 
                  end) 
 
- local OrionLib =   loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/XiaoLing_-_-R_-_-O_-_-B_-_-L_-_-O_-_-X_-UI_-X/main/XiaoLing.UI-Kong-AA.Lua"))() 
- local Window = OrionLib:MakeWindow({IntroText = "版本:正式版",Name = "冬凌中心[FORMAL]", HidePremium = false,SaveConfig = true,ConfigFolder = "冬凌中心缓存区"}) 
-  
+ local OrionLib =   loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/XiaoLing_-_-R_-_-O_-_-B_-_-L_-_-O_-_-X_-UI_-X/main/XiaoLing.UI-Kong-AA.Lua"))()  
+  local Window = OrionLib:MakeWindow({IntroText = "版本:正式版",
+ Name = "冬凌中心[FORMAL]", 
+ HidePremium = false,
+ SaveConfig = true,
+ ConfigFolder = "冬凌中心缓存区"}) 
  local about = Window:MakeTab({ 
      Name = "₪信息", 
      Icon = "rbxassetid://7743878358", 
