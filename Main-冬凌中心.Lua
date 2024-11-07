@@ -184,7 +184,6 @@ local ScreenGui = Instance.new("ScreenGui")
  about:AddParagraph("您的用户名:"," "..game.Players.LocalPlayer.Name.."")
  about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")  
  about:AddParagraph("您的注入器:"," "..identifyexecutor().."") 
- about:AddParagraph("您的注入器等级是：","8级,小凌已经畏惧了") 
  about:AddParagraph("如何获取香肠派对","玩香肠派对加我") 
  about:AddParagraph("作者：小凌，琳琳","") 
  local Tab= Window:MakeTab({ 
