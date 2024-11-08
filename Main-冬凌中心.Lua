@@ -91,51 +91,6 @@ Callback = function()
             end  
   })  
   
-  Tab:AddTextbox({  
-          Name = "移动速度",  
-          Default = "speed",  
-          TextDisappear = true,  
-          Callback = function(Value)  
-                  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value  
-          end           
-  })  
-  
-   Tab:AddTextbox({  
-          Name = "跳跃高度",  
-          Default = "Jump",  
-          TextDisappear = true,  
-          Callback = function(Value)  
-                  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value  
-          end           
-  })  
-  
-  Tab:AddTextbox({  
-          Name = "最大血量",  
-          Default = "HP",  
-          TextDisappear = true,  
-          Callback = function(Value)  
-                  game.Players.LocalPlayer.Character.Humanoid.MaxHealth = Value  
-          end           
-  })  
-  
-  Tab:AddTextbox({  
-          Name = "当前血量",  
-          Default = "U.HP",  
-          TextDisappear = true,  
-          Callback = function(Value)  
-                  game.Players.LocalPlayer.Character.Humanoid.Health = Value  
-          end           
-  })  
-  
-  Tab:AddTextbox({  
-          Name = "重力设置",  
-          Default = "GR",  
-          TextDisappear = true,  
-          Callback = function(Value)  
-                  game.Workspace.Gravity = Value  
-          end  
-  })  
-  
   Tab:AddButton({  
           Name = "回满血(假的没用)",  
           Callback = function()  
