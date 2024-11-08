@@ -30,7 +30,7 @@
  ) 
  wait(0.4)
  
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoLingUwU/https-glot.io-snippets-fz3f15yo3g-/main/XiaoLing.UI-Kong-AA.Lua"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/_G.UI_Size-200----config-ui-size-loadstring-game-HttpGet-lol-/refs/heads/main/jjjjj.lua"))()
   local Window = OrionLib:MakeWindow({Name = "冬凌 | 脚本中心", HidePremium = false, SaveConfig = true, ConfigFolder = "冬凌缓存...", IntroText = "冬凌作者:Q3E4"})
 
 --[[
