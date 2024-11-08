@@ -1,4 +1,3 @@
-
 local ScreenGui = Instance.new("ScreenGui") 
  ScreenGui.Name = "Credits" 
  ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui") 
@@ -197,23 +196,6 @@ local ScreenGui = Instance.new("ScreenGui")
  ) 
  wait(0.4)
  
- local TextChatService = game:GetService("TextChatService")
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-local Tag = {
-    Color = "#6df76f", -- you can change it to what ever you like, BUT IT HAS TO BE HEX
-    Chattag = "[欢迎进入冬凌中心]" -- this is what your tag will be
-}
-
-TextChatService.OnIncomingMessage = function(Message, ChatStyle)
-    local MessageProperties = Instance.new("TextChatMessageProperties")
-    local Player = Players:GetPlayerByUserId(Message.TextSource.UserId)
-    if Player.Name == LocalPlayer.Name then
-        MessageProperties.PrefixText = '<font color="' .. Tag.Color .. '">' .. Tag.Chattag .. '</font> ' .. Message.PrefixText
-    end
-    return MessageProperties
-end
-
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/flyspeed7/_G.UI_Size-200----config-ui-size-loadstring-game-HttpGet-lol-/refs/heads/main/jjjjj.lua"))()
   local Window = OrionLib:MakeWindow({Name = "冬凌 | 脚本中心", HidePremium = false, SaveConfig = true, ConfigFolder = "冬凌缓存...", IntroText = "冬凌作者:Q3E4"})
 
