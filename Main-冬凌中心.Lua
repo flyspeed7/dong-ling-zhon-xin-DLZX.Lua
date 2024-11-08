@@ -84,52 +84,6 @@ Callback = function()
           Name = "有一点东西用不了"  
   
   })  
-  Tab:AddSlider({  
-  
-          Name = "速度展示：",  
-  
-          Min = 16,  
-  
-          Max = 200,  
-  
-          Default = 16,  
-  
-          Color = Color3.fromRGB(127,251,111),  
-  
-          Increment = 1,  
-  
-          ValueName = "数值",  
-  
-          Callback = function(Value)  
-  
-                  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value  
-  
-          end      
-  
-  })  
-  Tab:AddSlider({  
-  
-          Name = "跳跃高度",  
-  
-          Min = 50,  
-  
-          Max = 200,  
-  
-          Default = 50,  
-  
-          Color = Color3.fromRGB(127,251,111),  
-  
-          Increment = 1,  
-  
-          ValueName = "数值",  
-  
-          Callback = function(Value)  
-  
-                  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value  
-  
-          end      
-  
-  })  
   
   Tab:AddButton({  
           Name = "控制玩家(小凌汉化)",  
